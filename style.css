@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Montserrat", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+:root {
+  --color-default: #222222;
+  --color-primary: #008374;
+  --color-secondary: #f85a40;
+}
+
+body {
+	overflow: hidden;
+
+	background-color: var(--color-primary);
+}
+header {
+	margin: 23px;
+}
+nav {
+	padding: 0 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav ul {
+	list-style: none;
+}
+nav ul li {
+	display: inline-block;
+}
+nav ul li a {
+	font-weight: 900;
+	padding: 15px 15px;
+	font-family: var(--font-default);
+	text-decoration: none;
+	color: white;
+	font-size: 1rem;
+}
+.logo h1{
+	font-weight: 600;
+	color: white;
+	font-family: var(--font-primary);
+	font-size: 2rem;
+}
+
+span {
+	color: var(--color-secondary);
+}
+#o {
+	color: white;
+	border-bottom: 2px solid var(--color-secondary);
+}
+
+nav ul li a{
+	color: #8fccc6;
+}
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	margin: 220px 99px;
+}
+.container h1{
+	color: white;
+	font-size: 3rem;
+	font-family: var(--font-primary);
+}
+.container p {
+	padding-bottom: 12px;
+	font-family: var(--font-default);
+	color: #97ccc6;
+}
+button {
+
+	font-family: var(--font-primary);
+	font-size: 1rem;
+	color: white;
+	border-radius: 31px;
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+	height: 57px;
+	width: 185px;
+	border: 2px solid #319a8e;
+	background-color: #1a8f82;
+}
+.button {
+	gap: 12px;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.button svg {
+	color:#7fbda8;
+	width: 40px;
+}
+
+.button h2 {
+	font-weight: 600;
+	font-family: var(--font-default);
+	font-size: 1.1rem;
+	color: white;
+}
+.video {
+	gap: 5px;
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+#img {
+	left: 49%;
+	top: 19%;
+	position: absolute;
+	height: 545px;
+	width: 545px;
+}
